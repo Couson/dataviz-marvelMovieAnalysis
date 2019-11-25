@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <link rel='stylesheet' href='main.css'>
+    <!-- External Script -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/networkgraph.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/timeline.js"></script>
+
+</head>
+
+
+<body>
+
+    <div class="timeline-wrapper clearfix">
+        <div class="timeline-content-day">
+            <div class="timeline-line"></div>
+            <div class="timeline-content-item active" data-timeline="hour-8">
+                <span>Black Widow - May 2020</span>
+                <div class="timeline-content-item-reveal">
+                    <a href="#">
+                        <img src="assets/img_08.jpg">
+                        <!-- <span>May 2020</span> -->
+
+                    </a>
+                </div>
+            </div>
+
+            <div class="timeline-content-item" data-timeline="hour-9">
+                <span>The Faclcon And the Winter Soldier - Fall 2020</span>
+                <div class="timeline-content-item-reveal">
+                    <a href="#">
+                        <img src="assets/img_03.jpg">
+                        <!-- <span>Fall 2020</span> -->
+                    </a>
+                </div>
+            </div>
+
+            <div class="timeline-content-item" data-timeline="hour-11">
+                <span>Shang-Chi - Feb 2021</span>
+                <div class="timeline-content-item-reveal">
+                    <a href="#">
+                        <img src="assets/img_09.jpg">
+                        <!-- <span></span> -->
+                    </a>
+                </div>
+            </div>
+
+            <div class="timeline-content-item" data-timeline="hour-12">
+                <span>Wanda Vision - Spring 2021</span>
+                <div class="timeline-content-item-reveal">
+                    <a href="#">
+                        <img src="assets/img_01.jpg">
+                        <!-- <span></span> -->
+                    </a>
+                </div>
+            </div>
+
+            <div class="timeline-content-item" data-timeline="hour-13">
+                <span>Doctor Strange: Multiverse Of Madness - May 7 2021</span>
+                <div class="timeline-content-item-reveal">
+                    <a href="#">
+                        <img src="assets/img_04.jpg">
+                        <!-- <span></span> -->
+                    </a>
+                </div>
+            </div>
+
+            <div class="timeline-content-item" data-timeline="hour-14">
+                <span>Loki - Summer 2021</span>
+                <div class="timeline-content-item-reveal">
+                    <a href="#">
+                        <img src="assets/img_02.jpg">
+                        <!-- <span></span> -->
+                    </a>
+                </div>
+            </div>
+
+            <div class="timeline-content-item" data-timeline="hour-15">
+                <span>What If...? - Summer 2021</span>
+                <div class="timeline-content-item-reveal">
+                    <a href="#">
+                        <img src="assets/img_07.jpg">
+                        <!-- <span></span> -->
+                    </a>
+                </div>
+            </div>
+
+            <div class="timeline-content-item" data-timeline="hour-16">
+                <span>Hawkeye - Fall 2021</span>
+                <div class="timeline-content-item-reveal">
+                    <a href="#">
+                        <img src="assets/img_06.jpg">
+                        <!-- <span></span> -->
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- <div id='timelinegraph'></div> -->
+     <div class = 'blank-space' style = 'width: 100%; height: 250px;'></div>
+
+    <div class='row'>
+        <div id="networkgraph" style='width: 50%'></div>
+        <div id="webgraph" style='width: 50%'></div>
+    </div>
+    <h1>
+        Explanantion in Words
+    </h1>
+    <div class = 'blank-space' style = 'width: 100%; height: 50px;'></div>
+
+    <div class ='row-textbox'>
+        <h3>Here I have plotted three charts: timeline, net graph, and the radar chart.
+             The timeline chart shows what related Marvel movies will be avaliable in 
+             the future. The timeline is interactable. You can move the mouse over the
+              dot and see the correspondent reactions. I also plotted a net graph which
+               shoes the relationships among Marvel characters and how does Doctor 
+               Strange interact with characters from the other moives. From this net 
+               graph, one of the many things we can see is that his direct acquaintances
+                are Star-Lord, Iron Man, and Captain America. Also, I plotted a radar chart
+                 on the right. It shows each characters' ability including Doctor Strange 
+                 Since Doctor Strange knows magic or "Chi", his power is much stronger that that 
+                 of the other human characters such as Star-Lord, Captain America, and Iron Man. 
+                 However, those human characters do have greater strength due to their advanced 
+                 equipment. In general, each characters' ability is balanced. Everyone has its 
+                 own strength and weakness.
+        </h3>
+
+    </div>
+
+    <script src='main.js'></script>
+</body>
+
+
+</html>
